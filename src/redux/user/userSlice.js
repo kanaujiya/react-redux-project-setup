@@ -17,7 +17,6 @@ const userSlice = createSlice({
     setIsFetching: (state, action) => {
       state.state.isFetching = true;
       state.user.isAuthenticated = action.payload.isAuthenticated;
-      console.log(action.payload.isAuthenticated)
     },
   },
 });
